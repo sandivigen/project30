@@ -1,0 +1,382 @@
+/*
+Theme Name:     Ronneby Child Theme
+Theme URI: 		http://themes.dfd.name/ronneby/
+Description:    ronneby - Highly Functional Multifaceted WP Theme
+Author:         DFD
+Author URI:		http://wpsaloon.com/
+Template:       ronneby
+Version:        1.0.0
+Color Theme:    #c39f77
+*/
+.dn {
+    display: none;
+}
+#wp-admin-bar-maintenance_options, #wp-admin-bar-compile_less, #wp-admin-bar-simple_compile_less,
+#wp-admin-bar-updates, #wp-admin-bar-customize {
+	display: none;
+}
+body .info-block-style-1 a.read-more-01, div.feature-title, a.more-button {
+    font-family:  Roboto;
+    letter-spacing: 0px;
+}
+
+
+.dfd-info-banner.style-02.info-block-style-1.dfd-image-scale.text-center:hover {
+	box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.35);
+}
+.dfd-info-banner.style-02.info-block-style-1.dfd-image-scale.text-center {
+	padding-bottom: 15px;
+}
+body div.page-title-inner .breadcrumbs {
+	display: none;
+}
+.dfd-news-categories {
+	display: none;
+}
+.single-post .post .entry-content a:before {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #c39f77;
+}
+.single-post .post .entry-content a:hover {
+	color: #c39f76;
+}
+
+/*.dfd-info-banner.style-02 .image-wrap {
+	cursor: pointer;
+}*/
+.folio-field-name.box-name {
+    font-size: 20px!important;
+}
+.single-folio .dfd-folio-categories, .single-folio .dfd-blog-title {
+	display: none;
+}
+#my-work-slider {
+	margin-top: 0!important;
+}
+.modal-hide {
+	display: none;
+}
+h3.widget-title {
+    font-family: sans-serif!important;
+}
+#dfd_logo-11 img {
+	width: 50%;
+}
+#footer {
+	padding-bottom: 0px!important;
+}
+#dfd_vcard_simple-12 {
+	margin-top: 0px!important;
+}
+body .subtitle {
+        color: #333;
+}
+.custom-block-1 .dfd-blog-title.widget-title {
+    margin-top: 20px!important;
+}
+.custom-block-1 .entry-meta.meta-bottom {
+    margin-top: 15px!important;
+}
+.custom-block-1 .entry-content.text-left {
+    margin-top: 15px!important;
+}
+.home .wrap-delimiter {
+    display: none;
+}
+div#idinfobox57fb402a5f440 {
+    margin-bottom: 10px;
+}
+body .ult_modal .ult_modal-content {
+    padding: 0px;
+}
+ .postid-19468 .dfd-folio-categories {
+    display: none;
+}
+
+@media only screen and (max-width: 500px) {
+    body #header-container:not(.small):not(.logo-position-right) .header-col-right {
+            width: auto!important;
+    }
+    .top-info {
+        padding-right: 0!important;
+    }
+    body .header-top-panel .header-info-panel .top-info .dfd-top-info-delim {
+        padding: 0 10px;
+    }
+    .header-col-left {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    body .header-icons-wrapper {
+        margin-right: 40px;
+        margin-top: -5px;
+    }
+}
+
+
+
+
+/* single portfolio item */
+@media only screen and (min-width: 800px) {
+	body #layout.single-folio.folio_inside_2 > .project {
+    	margin-top: 0px;
+	}
+}
+.single-my-product  .dfd-pricing-block .payment-amount {
+	font-size: 50px;
+}
+.single-my-product .single-folio.folio_inside_2 .folio-info.desc-left, .single-my-product .single-folio.folio_inside_2 .folio-info.desc-right {
+	margin-top: 0;
+}
+.single-my-product .block-head {
+    padding-top: 20px!important;
+    padding-bottom: 0px!important;
+}
+.subtitle a {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Lora";
+    line-height: 22.36px;
+    text-transform: none;
+    letter-spacing: 0px;
+    word-spacing: 0;
+    color: #999;
+    -webkit-transition: color .3s ease-in-out;
+    -moz-transition: color .3s ease-in-out;
+    transition: color .3s ease-in-out;
+    cursor: default;
+}
+.subtitle a:hover {
+	color: #999;
+}
+.feature-title {
+    font-family: Roboto!important;
+    letter-spacing: 0px!important;
+}
+.single-my-product .price-wrap span {
+    font-family: "Montserrat";
+}
+.single-my-product span.time-interval {
+    font-size: 36px;
+    color: black;
+    top: -4px;
+    left: -28px;
+}
+.single-my-product .desc-text {
+    padding: 0!important;
+}
+span.dicription-price {
+    font-size: 12px;
+    font-style: italic;
+    color: #999;
+    width: 120px;
+    display: block;
+    margin: 0 auto;
+    line-height: 12px;
+}
+span.payment-amount {
+    margin-right: 32px!important;
+}
+.single-my-product .dfd-pricing-block.style-02 .block-head {
+	border-bottom: none!important;
+    padding: 10px 0 0 0!important;
+}
+.single-my-product a.pricing-button.button {
+    margin: 15px 0;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.single-my-product .dfd-portfolio-shortcodes {
+    padding-top: 0px;
+}
+.desc-text.subtitle {
+    color: #333;
+}
+body .dfd-controls .page-inner-nav .dfd-controler.prev span, body .dfd-controls .page-inner-nav .dfd-controler.next span {
+    margin-left: 0px!important;
+    font-size: 30px;
+}
+body .dfd-controls .page-inner-nav .dfd-controler.prev span:hover:before, body .dfd-controls .page-inner-nav .dfd-controler.next span:hover:before {
+    border-bottom-style: none;
+}
+.dfd-controls .page-inner-nav .thumb.prev .entry-comments, .dfd-controls .page-inner-nav .thumb.next .entry-comments  {
+    display: none;
+}
+
+@media only screen and (min-width: 800px) {
+	#layout.single-folio.folio_inside_1 .folio-info.desc-left:before, #layout.single-folio.folio_inside_1 .folio-info.desc-right:before {
+		background-color: transparent!important;
+	}
+
+}
+
+
+
+
+/* portfolio catalog list */
+.page .price-wrap span {
+    font-family: "Montserrat";
+    font-size: 30px;
+}
+.page .price-wrap span.payment-amount {
+    font-size: 50px;
+}
+/*.time-interval {
+	font-size: 38px!important;
+}*/
+.page .dfd-pricing-block.style-02 .block-head {
+	border-bottom: none!important;
+    padding: 0;
+}
+.page .block-head {
+    padding-top: 20px!important;
+    padding-bottom: 0px!important;
+}
+.page span.time-interval {
+    font-size: 38px;
+    color: black;
+    top: -4px;
+    left: -28px;
+}
+h1.page-title {
+    position: relative;
+    top: -200px;
+}
+body .nav-menu .mega-menu-item .item-title {
+    padding: 0 18px;
+}
+
+
+
+
+
+
+/*modal block*/
+.description-modal {
+	text-align: center;
+	display: block;
+}
+.ult_modal .ult_modal-content .ult_modal-header .ult_modal-title {
+	font-family: Roboto!important;
+}
+body .wpcf7 form p.dfd-third-size {
+    width: 100%;
+}
+
+
+
+/* header rigth button */
+#dfd-button-579d6ff511b28.dfd-button-module-wrap .dfd-button-module .dfd-button-link .dfd-button-inner-cover span i {
+	font-size: 80px;
+}
+#dfd-button-579d6ff511b28.dfd-button-module-wrap .dfd-button-module .dfd-button-link .dfd-button-inner-cover .dfd-button-text-main {
+	color: #ffffff
+}
+#dfd-button-579d6ff511b28.dfd-button-module-wrap .dfd-button-module .dfd-button-link .dfd-button-inner-cover {
+	border-radius:2px;
+}
+#dfd-button-579d6ff511b28.dfd-button-module-wrap .dfd-button-module:not(.style_4) .dfd-button-link .dfd-button-inner-cover:before, #dfd-button-579d6ff511b28.dfd-button-module-wrap .dfd-button-module.style_4 .dfd-button-link .dfd-button-inner-cover:after, #dfd-button-579d6ff511b28.dfd-button-module-wrap .dfd-button-module.style_6 .dfd-button-link .dfd-button-inner-cover .dfd-button-text-main {
+	background: #c39f76;
+	border-style:solid;
+	border-width:1px;border-radius:2px;
+	border-color:#c39f76;
+}
+#dfd-button-579d6ff511b28.dfd-button-module-wrap .dfd-button-module:not(.style_6) .dfd-button-link:hover .dfd-button-inner-cover .dfd-button-text-main, #dfd-button-579d6ff511b28.dfd-button-module-wrap .dfd-button-module .dfd-button-link .dfd-button-inner-cover .dfd-button-text-hover {
+	color: #c39f76;
+}
+#dfd-button-579d6ff511b28.dfd-button-module-wrap .dfd-button-module .dfd-button-link:hover .dfd-button-inner-cover {
+	border-radius:2px;
+}
+#dfd-button-579d6ff511b28.dfd-button-module-wrap .dfd-button-module:not(.style_4) .dfd-button-link .dfd-button-inner-cover:after, 
+#dfd-button-579d6ff511b28.dfd-button-module-wrap .dfd-button-module.style_4 .dfd-button-link .dfd-button-inner-cover:before,
+#dfd-button-579d6ff511b28.dfd-button-module-wrap .dfd-button-module .dfd-button-link .dfd-button-inner-cover .dfd-button-text-hover {
+	background: #1b1b1b;
+	border-style:solid;
+	border-width:1px;
+	border-radius:2px;
+	border-color:#c39f76;
+	border-left: none;
+}
+
+
+#header-container.small #dfd-button-579d6ff511b28 {
+	margin-top: 0;
+}
+/*#header-container.small #dfd-button-579d6ff511b28 .dfd-button-text-main {
+    font-size: 10px!important;
+}*/
+/*#header-container.small #dfd-button-579d6ff511b28 .fa-chevron-right {
+	font-size: 50px!important;
+}*/
+#dfd-button-579d6ff511b28 {
+    margin-top: -18px;
+    cursor: pointer;
+}
+.header-col-right {
+    margin-right: 20px;
+    margin-left: 100px;
+}
+.header-col-right .dfd-button-text-main {
+    line-height: 1.5!important;
+    padding: 5px 75px 5px 20px!important;
+}
+.header-col-right .entypo-icon-right-open {
+    line-height: 60px!important;
+    right: -10px!important;
+}
+.header-col-right .fa-chevron-right {
+	font-size: 50px!important;
+    margin-top: 3px;
+    right: 3px!important;
+}
+/*#header-container.small #dfd-button-579d6ff511b28 .dfd-button-inner-cover:before, #header-container.small .dfd-button-inner-cover {
+	border-radius: 0!important;
+}*/
+/*#header-container.small .header-col-right .dfd-button-text-main {
+    padding: 6px 90px 7px 20px!important;
+}*/
+/*#header-container.small #dfd-button-579d6ff511b28.dfd-button-module-wrap .dfd-button-module .dfd-button-link .dfd-button-inner-cover span i {
+    right: 30px!important;
+}*/
+.header-col-right {
+	margin-right: 0;
+}
+.dfd-button-text-main {
+	font-size: 11px!important;
+}
+.header-main-panel {
+    padding-right: 0;
+}
+
+
+@media only screen and (max-width: 1100px) {
+	.dfd-side-by-side-mode-custom #header-container, .dfd-side-by-side-mode-custom #header-container #header {
+		position: fixed !important;
+		background: transparent;
+	}
+	/*#header-container:not(.small):not(.logo-position-right) #header .header-wrap > .row:last-child .columns.header-main-panel .header-col-right {
+    	width: 260px!important;
+	}*/
+	#dfd-button-579d6ff511b28 {
+		float: right;
+		margin-top: 0;
+	}
+	.header-icons-wrapper {
+		margin-right: 20px;
+	}
+
+}
+@media only screen and (max-width: 800px) {
+	.dfd-side-by-side-mode-custom #header-container #header .header-wrap > .row:last-child {
+		background: transparent;
+	}
+}
+@media only screen and (max-width: 1100px) {
+	.dfd-side-by-side-mode-custom body.dfd-custom-padding-html #header-container #header {
+		padding: 0 30px;
+	}
+}
+
